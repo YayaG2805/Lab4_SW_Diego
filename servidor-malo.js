@@ -7,17 +7,17 @@ const PORT = 3000
 const server = http.createServer(async (req, res) => {
   if (req.url === "/") {
     res.writeHead(200, { "Content-Type": "text/plain" })
-    res.end("Servidor activo")
+    res.end("Servidor de videojuegos activo")
     return
   }
 
   if (req.url === "/info") {
     res.writeHead(200, { "Content-Type": "application-json" })
-    res.end("Ruta de información")
+    res.end("Informacion del servidor")
     return
   }
 
-  if (req.url === "/api/student") {
+  if (req.url === "/api/videojuegos") {
     const filePath = path.join(process.cwd(), "datos.json")
     const texto = fs.readFile(filePath, "utf-8")
     res.writeHead(200, { "Content-Type": "application/json" })

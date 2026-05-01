@@ -1,0 +1,24 @@
+{
+  "tienda": "GameZone Guatemala",
+  "actualizado": "2026-04-30",
+  "videojuegos": [
+    {
+      "id": "vj-001",
+      "titulo": "The Legend of Zelda: Breath of the Wild",
+      "plataforma": "Nintendo Switch",
+      "precio": 59.99
+    },
+    {
+      "id": "vj-002",
+      "titulo": "Hades",
+      "plataforma": "PC",
+      "precio": 24.99
+    },
+    {
+      "id": "vj-003",
+      "titulo": "God of War Ragnarok",
+      "plataforma": "PlayStation 5",
+      "precio": 69.99
+    }
+  ]
+}
