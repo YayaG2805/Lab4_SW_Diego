@@ -1,16 +1,18 @@
 {
   "name": "lab4-sw-diego",
   "version": "1.0.0",
-  "type": "module",
-  "description": "Laboratorio 4 - API REST con Node.js y Express",
+  "description": "Laboratorio 4 de Sistemas y Tecnologias Web - API REST de videojuegos con Node.js y Express",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "bad": "node servidor-malo.js",
-    "fixed": "node servidor-corregido.js",
     "start": "node app.js",
-    "dev": "node app.js"
+    "malo": "node servidor-malo.js",
+    "corregido": "node servidor-corregido.js"
   },
+  "keywords": ["api", "rest", "express", "videojuegos", "laboratorio"],
+  "author": "Diego Guevara - 24128",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.19.2"
   }
 }
